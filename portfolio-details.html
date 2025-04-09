@@ -5,22 +5,14 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>P3: Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS Files -->
+  <link href="assets/templatefiles/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/templatefiles/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
   <link href="assets/css/main.css" rel="stylesheet">
 
@@ -29,29 +21,26 @@
 <body class="index-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <span class="header-toggle d-xl-none bi bi-list"></span>
 
-    <div class="profile-img">
-      <img src="assets/img/Me.jpeg" alt="" class="img-fluid rounded-circle">
-    </div>
-
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <h1 class="sitename">Abdul Aziz Hamoui</h1>
-    </a>
-
-    <div class="social-links text-center">
-      <a href="https://github.com/ZizoHamoui" target="_blank" class="github"><i class="bi bi-github"></i></a>
-      <a href="https://www.linkedin.com/in/abdul-aziz-hamoui-52ab751a4/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
-    </div>
+    <div>
+      <a href="index.html#hero"><h1 class="sitename">A.H</h1></a>
+  </div>
 
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="#overview" class="active"><i class="bi bi-house navicon"></i>Overview</a></li>
-        <li><a href="#process"><i class="bi bi-person navicon"></i> Process</a></li>
+        <li><a href="#process"><i class="bi bi-file navicon"></i> Process</a></li>
         <li><a href="#findings"><i class="bi bi-file-earmark-text navicon"></i> Findings</a></li>
         <li><a href="#reflection"><i class="bi bi-envelope navicon"></i> Reflection</a></li>
+        <li><a href="#contact"><span class="bi bi-chat-dots navicon"></span> contact me</a></li>
       </ul>
     </nav>
+
+    <div class="social-links">
+      <a href="https://github.com/ZizoHamoui" target="_blank" class="github"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/abdul-aziz-hamoui-52ab751a4/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
 
   </header>
 
@@ -74,7 +63,7 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4">
           <div class="col-lg-8">
-            <img src="assets/img/portfolio/finalflow.jpg" alt="Portfolio Image" class="responsive-image">
+            <img src="assets/img/portfolio/finalflow.jpg" alt="Image of finalised workflow" height="400" width="800" class="responsive-image">
           </div>
           
           <div class="col-lg-4">
@@ -107,7 +96,7 @@
               <li>Developers reported that 40% of design specifications were not easily digested</li>
               <li>Implementation discrepancies between design intentions and final code resulted in an average of 5 rounds of revisions per feature</li>
             </ul>
-            <img src="assets/img/portfolio/Main Image.png" alt="Discovery Research Findings" class="responsive-image">
+            <img src="assets/img/portfolio/MainImage.png" alt="Overall image of whiteboarding" class="responsive-image" height="400" width="1200">
             <span class="image-caption">Figure 1: overview of research board</span>
           </div>
       </div>
@@ -130,7 +119,7 @@
               <li>distributed a company-wide survey that garnered 72% response rate</li>
             </ul>
             <p>this research revealed that our tooling was only part of the problem—the lack of a designer assigned to every scrum team with clear ownership and accountability was equally problematic.</p>
-            <img src="assets/img/portfolio/research findings.jpg" alt="Discovery Research Findings" class="responsive-image">
+            <img src="assets/img/portfolio/researchfindings.jpg" alt="Discovery Research Findings" class="responsive-image" height="400" width="600">
             <span class="image-caption">figure 2: initial questions coming up from research</span>
           </div>
 
@@ -141,16 +130,16 @@
               <li>developed a service blueprint of the current handoff process, identifying 4 critical failure points</li>
               <li>hosted collaborative workshop titled michelin star recipe with cross-functional teams to ideate potential solutions</li>
             </ul>
-            <img src="assets/img/portfolio/michelin.png" alt="Discovery Research Findings" class="responsive-image">
+            <img src="assets/img/portfolio/michelin.png" alt="Photo of the michelin star workshop criteria" class="responsive-image" height="1200" width="400">
             <span class="image-caption">Figure 3: micheline star recipe</span>
           </div><div class="portfolio-description" data-aos="fade-up">
             <h3>prototyping</h3>
             <ul>
               <li>designed a standardized handoff template that captured all required specifications on Figma</li>
-              <li>developed new documentation standards with visual annotations to reduce ambiguity on confluence/li>
+              <li>developed new documentation standards with visual annotations to reduce ambiguity on confluence</li>
               <li>crafted new workflow diagrams showing revised approval pathways and feedback loops</li>
             </ul>
-            <img src="assets/img/portfolio/firstflow.png" alt="Discovery Research Findings" class="responsive-image">
+            <img src="assets/img/portfolio/firstflow.png" alt="Initial design of the workflow" class="responsive-image" height="400" width="1200">
             <span class="image-caption">Figure 4: First prototype</span>
           </div>
           <div class="portfolio-description" data-aos="fade-up">
@@ -160,19 +149,17 @@
               <li>documented unintended consequences and edge cases for further consideration</li>
               <li>refined the solution based on quantitative data and qualitative feedback</li>
             </ul>
-            <img src="assets/img/portfolio/finalflow.jpg" alt="Discovery Research Findings" class="responsive-image">
+            <img src="assets/img/portfolio/finalflow.jpg" alt="Final design of the workflow" class="responsive-image" height="400" width="1200">
             <span class="image-caption">Figure 5: Refined Solution</span>
           </div>
         </div>
-      </div>
-
     </section>
 
     <section id="findings" class="portfolio-details section dark-background">
       <div class="portfolio-info" data-aos="fade-up">
         <h2>the things i found</h2>
         <p>the implementation of our new handoff workflow yielded remarkable improvements across multiple dimensions:</p>
-        <img src="assets/img/portfolio/Plan.png" alt="Discovery Research Findings" class="responsive-image">
+        <img src="assets/img/portfolio/Plan.png" alt="Discovery Research Findings" class="responsive-image" height="400" width="1200">
         <span class="image-caption">Figure 6: Questions considered for implementation</span>
           <div class="portfolio-description" data-aos="fade-up">
               <h3>qualitative & quantitative</h3>
@@ -200,11 +187,73 @@
       </div>
     </section>
 
-    <section id="contact" class="portfolio-details section dark-background">
-      <div class="portfolio-info" data-aos="fade-up">
+    <section id="contact" class="section dark-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
         <h2>say hi</h2>
-        <p>lets have a coffee chat</p>
+      </div><!-- End Section Title -->
+    
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="contact-info">
+              <p class="contact-intro">I'm always open to discussing new projects, design challenges, or just chatting about UX research. Feel free to reach out!</p>
+              
+              <div class="contact-method">
+                <i class="bi bi-envelope-fill"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>aah12@sfu.ca</p>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <i class="bi bi-geo-alt-fill"></i>
+                <div>
+                  <h3>Location</h3>
+                  <p>Vancouver, British Columbia</p>
+                </div>
+              </div>
+              
+              <div class="contact-social">
+                <h3>Connect with me</h3>
+                <div class="social-links">
+                  <a href="https://github.com/ZizoHamoui" target="_blank" class="github"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/abdul-aziz-hamoui-52ab751a4/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6">
+            <form class="contact-form" action="#" method="POST">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name" class="visually-hidden">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="your name">
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <label for="email" class="visually-hidden">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="your email">
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <label for="subject" class="visually-hidden">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="subject">
+              </div>
+              <div class="form-group mt-3">
+                <label for="message" class="visually-hidden">Your Message</label>
+                <textarea class="form-control" name="message" id="message" rows="5" placeholder="your message"></textarea>
+              </div>
+              <div class="form-submit mt-4">
+                <button type="submit" class="submit-btn">send message <i class="bi bi-arrow-right"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
+    
     </section>
 
   </main>
@@ -215,17 +264,17 @@
   <!-- Preloader -->
   <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- template JS Files -->
+  <script src="assets/templatefiles/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/templatefiles/aos/aos.js"></script>
+  <script src="assets/templatefiles/typed.js/typed.umd.js"></script>
+  <script src="assets/templatefiles/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/templatefiles/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/templatefiles/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/templatefiles/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/templatefiles/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/templatefiles/swiper/swiper-bundle.min.js"></script>
+
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>

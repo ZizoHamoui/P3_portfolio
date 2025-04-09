@@ -5,22 +5,14 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>P3: Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS Files -->
+  <link href="assets/templatefiles/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/templatefiles/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
   <link href="assets/css/main.css" rel="stylesheet">
 
@@ -29,155 +21,125 @@
 <body class="index-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <span class="header-toggle d-xl-none bi bi-list"></span>
 
-    <div class="profile-img">
-      <img src="assets/img/Me.jpeg" alt="" class="img-fluid rounded-circle">
-    </div>
-
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <h1 class="sitename">Abdul Aziz Hamoui</h1>
-    </a>
-
-    <div class="social-links text-center">
-      <a href="https://github.com/ZizoHamoui" target="_blank" class="github"><i class="bi bi-github"></i></a>
-      <a href="https://www.linkedin.com/in/abdul-aziz-hamoui-52ab751a4/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
-    </div>
+    <div>
+      <a href="index.html#hero"><h1 class="sitename">A.H</h1></a>
+  </div>
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#about" class="active"><i class="bi bi-house navicon"></i>about</a></li>
-        <li><a href="#skills"><i class="bi bi-person navicon"></i> skills</a></li>
-        <li><a href="#portfolio"><i class="bi bi-file-earmark-text navicon"></i> porfolio</a></li>
+        <li><a href="#about" class="active"><span class="bi bi-house navicon"></span>about</a></li>
+        <li><a href="#skills"><span class="bi bi-person navicon"></span> skills</a></li>
+        <li><a href="#portfolio"><span class="bi bi-file-earmark-text navicon"></span> porfolio</a></li>
+        <li><a href="#contact"><span class="bi bi-chat-dots navicon"></span> contact me</a></li>
       </ul>
     </nav>
+
+    <div class="social-links">
+      <a href="https://github.com/ZizoHamoui" target="_blank" class="github"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/abdul-aziz-hamoui-52ab751a4/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
 
   </header>
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+   <!-- Hero Section -->
+<section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
+  <div class="container hero-container" data-aos="fade-up" data-aos-delay="100">
+    <div class="hero-content">
+      <h1 class="hero-headline">Hi, I'm Abdul Aziz Hamoui, a UX researcher and data visualizer</h1>
+      
+      <p class="hero-bio">Currently pursuing a BSc in Interactive Arts & Technology at Simon Fraser University, 
+      I specialize in optimising and scaling interactive systems to enhance usability and engagement.</p>
+      
+      <p class="hero-position">View my <a href="portfolio-details.html" class="company-link">latest project</a></p>
+    </div>
+  </div>
+</section><!-- /Hero Section -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <p class="welcome">hey there...</p>
-        <h2> i'm abdul aziz hamoui, an expert</h2>
-        <p class="details"><span class="typed" data-typed-items="ux researcher, data visualiser">ux researcher</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-      </div>
+   <!-- About Section -->
+<section id="about" class="about section dark-background">
 
-    </section><!-- /Hero Section -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>So what do I do?</h2>
+  </div><!-- End Section Title -->
 
-    <!-- About Section -->
-    <section id="about" class="about section dark-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>so who am i?</h2>
-      </div><!-- End Section Title -->
-
-        <div class="info">
-          <div class="row justify-content-between">
-    
-            <div class="col-lg-4 ">
-              <div class="div-img-bg">
-                <div class="about-img">
-                  <img src="assets/img/Me.jpeg" class="img-responsive" alt="me">
-                </div>
-              </div>
-            </div>
-    
-            <div class="col-lg-7">
-              <div class="about-descr">
-                <h3>im a ux researcher, vancouver based who loves to organise, optimise and scale designs. I also enjoy collecting data and crafting data visualisations. </h3>
-                <p class="separator">
-                  Currently pursuing a BSc in Interactive Arts & Technology at Simon Fraser University, I specialize in optimising and scaling interactive systems to 
-                  enhance usability and engagement. With hands-on experience in researching as a Design Operations Intern at Dayforce and over three 
-                  years of design leadership in university clubs, I've worked across various disciplines, from web design to mobile design. 
-                  My approach combines meticulous data sourcing with a deep understanding of user needs to craft seamless, impactful experiences.
-                  I'm always eager for new challenges that allow me to apply and expand my skills in innovative ways. When I'm not researcherching, you’ll find me 
-                  immersed in crime fiction or exploring philosophical works like The Art of Persuasion.
-                </p>
-              </div>
-    
-            </div>
+  <div class="container">
+    <div class="about-content">
+      <div class="about-img-container">
+        <div class="about-img">
+          <img src="assets/img/hero-bg.png" alt="Diagram of ux research" height="400" width="700">
         </div>
       </div>
 
-    </section>
-    <!-- /About Section -->
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section dark-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>what do i bring to the table?</h2>
-        <p>the following skills I acquired through my previous internships and academic work</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>Data Gathering (Pendo, Surveys, Interviews)</span> <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>HTML, CSS, Javascript</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Data Analysis</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>Report Writing and Presentation</span> <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Data visualisations (Jira and PowerBI)</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Dovetail</span> <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
+      <div class="about-text-container">
+        <div class="about-descr">
+          <h3>As a UX Researcher I aim to Understand Users, Analyze Insights and Drive Decisions </h3>
+          <p class="separator">
+            I investigate how people interact with products or services to uncover insights that drive 
+            intuitive and accessible design solutions.
+          </p>
         </div>
-
       </div>
+    </div>
+  </div>
 
-    </section><!-- /Skills Section -->
+</section>
+<!-- /About Section -->
+ 
+<!-- Skills Section -->
+<section id="skills" class="skills section dark-background">
 
-    <!-- Portfolio Section -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>What do i bring to the table?</h2>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="skills-tabs">
+      <div class="skills-tabs-row">
+        <div class="skill-tab" tabindex="0">
+          <span class="skill-name">Data Gathering</span>
+          <span class="skill-details">Pendo, Surveys, Interviews</span>
+        </div>
+        <div class="skill-tab" tabindex="0">
+          <span class="skill-name">HTML, CSS, JS</span>
+          <span class="skill-details">Front-end Development</span>
+        </div>
+        <div class="skill-tab" tabindex="0">
+          <span class="skill-name">Data Analysis</span>
+          <span class="skill-details">Data Processing & Insights</span>
+        </div>
+        <div class="skill-tab" tabindex="0">
+          <span class="skill-name">Report Writing</span>
+          <span class="skill-details">Documentation & Presentation</span>
+        </div>
+      </div>
+      
+      <div class="skills-tabs-row">
+        <div class="skill-tab" tabindex="0">
+          <span class="skill-name">Data Visualization</span>
+          <span class="skill-details">Jira and PowerBI</span>
+        </div>
+        <div class="skill-tab" tabindex="0">
+          <span class="skill-name">Dovetail</span>
+          <span class="skill-details">User Research Repository</span>
+        </div>
+        <div class="skill-tab" tabindex="0">
+          <span class="skill-name">UX Research</span>
+          <span class="skill-details">Usability Studies & Testing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section><!-- /Skills Section -->
+
+   <!-- Portfolio Section -->
 <section id="portfolio" class="portfolio section dark-background">
 
   <!-- Section Title -->
@@ -193,13 +155,13 @@
       <div class="col-12 portfolio-item">
         <div class="portfolio-content">
           <div class="portfolio-image">
-            <img src="assets/img/portfolio/Main Image.png" alt="Portfolio Item">
+            <img src="assets/img/portfolio/MainImage.png" alt="Portfolio Item" height="400" width="700">
           </div>
           <div class="portfolio-info">
             <h3>Design to Developer workflow Research</h3>
             <p>Researching and solutioning why Design handoffs between design and development teams were causing 
               significant delays, miscommunications, and implementation inconsistencies across a suite of enterprise products</p>
-            <a href="portfolio-details.html" class="details-link">View Details <i class="bi bi-arrow-right"></i></a>
+            <a href="portfolio-details.html" class="details-link">See what I did <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
       </div><!-- End Portfolio Item -->
@@ -214,8 +176,67 @@
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
     <h2>say hi</h2>
-    <p>lets have a coffee chat</p>
   </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="contact-info">
+          <p class="contact-intro">I'm always open to discussing new projects, design challenges, or just chatting about UX research. Feel free to reach out!</p>
+          
+          <div class="contact-method">
+            <i class="bi bi-envelope-fill"></i>
+            <div>
+              <h3>Email</h3>
+              <p>aah12@sfu.ca</p>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div>
+              <h3>Location</h3>
+              <p>Vancouver, British Columbia</p>
+            </div>
+          </div>
+          
+          <div class="contact-social">
+            <h3>Connect with me</h3>
+            <div class="social-links">
+              <a href="https://github.com/ZizoHamoui" target="_blank" class="github"><i class="bi bi-github"></i></a>
+              <a href="https://www.linkedin.com/in/abdul-aziz-hamoui-52ab751a4/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6">
+        <form class="contact-form" action="#" method="POST">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <label for="name" class="visually-hidden">Your Name</label>
+              <input type="text" name="name" class="form-control" id="name" placeholder="your name">
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <label for="email" class="visually-hidden">Your Email</label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="your email">
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <label for="subject" class="visually-hidden">Subject</label>
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="subject">
+          </div>
+          <div class="form-group mt-3">
+            <label for="message" class="visually-hidden">Your Message</label>
+            <textarea class="form-control" name="message" id="message" rows="5" placeholder="your message"></textarea>
+          </div>
+          <div class="form-submit mt-4">
+            <button type="submit" class="submit-btn">send message <i class="bi bi-arrow-right"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 
 </section>
 
@@ -227,17 +248,16 @@
   <!-- Preloader -->
   <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- template JS Files -->
+  <script src="assets/templatefiles/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/templatefiles/aos/aos.js"></script>
+  <script src="assets/templatefiles/typed.js/typed.umd.js"></script>
+  <script src="assets/templatefiles/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/templatefiles/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/templatefiles/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/templatefiles/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/templatefiles/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/templatefiles/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
